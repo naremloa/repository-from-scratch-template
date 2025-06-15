@@ -1,10 +1,12 @@
 {
+  "extends": "./tsconfig.paths.json",
   "compilerOptions": {
     "target": "es2022",
     "lib": ["es2022", "dom", "dom.iterable"],
     "moduleDetection": "force",
     "module": "preserve",
     "resolveJsonModule": true,
+    "types": ["vitest/globals"],
     "allowJs": true,
     "strict": true,
     "noImplicitOverride": true,
